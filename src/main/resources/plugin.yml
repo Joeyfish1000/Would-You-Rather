@@ -1,0 +1,8 @@
+name: WouldYouRather
+version: '${project.version}'
+main: com.yourname.wouldyourather.WouldYouRather
+api-version: '1.21'
+commands:
+  wyr:
+    description: Open the Would You Rather dilemma menu
+    permission: wouldyourather.use
