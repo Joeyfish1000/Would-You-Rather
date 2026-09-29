@@ -151,7 +151,7 @@ public class WouldYouRather extends JavaPlugin implements Listener, CommandExecu
                 for(Player p : players) p.addPotionEffect(new PotionEffect(PotionEffectType.BLINDNESS, 600, 0));
             },
             players -> {
-                for(Player p : players) p.addPotionEffect(new PotionEffect(PotionEffectType.CONFUSION, 600, 0));
+                for(Player p : players) p.addPotionEffect(new PotionEffect(PotionEffectType.NAUSEA, 600, 0));
             }
         ));
 
